@@ -21,7 +21,11 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
+
+
+def utcnow():
+    return datetime.now(timezone.utc)
 
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_PATH = os.path.join(REPO_DIR, "validator", "validation.json")
@@ -215,7 +219,9 @@ def main():
             prev = json.load(f)
     except (OSError, ValueError):
         prev = {}
-    rows = list(csv.reader(fetch_csv(SHEET_CSV).splitlines()))
+    raw = fetch_csv(SHEET_CSV)
+    print(f"sheet bytes={len(raw)}")
+    rows = list(csv.reader(raw.splitlines()))
     if len(rows) < 2:
         print("sheet has no response rows yet")
         rows = rows  # still write empty data.json below
@@ -252,7 +258,7 @@ def main():
             )
         else:
             status, evidence = judge(fid, sub, sa_key, llama_key)
-            checked = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            checked = utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
             prev[rid] = {
                 "fp": rid,
                 "status": status,
@@ -272,7 +278,7 @@ def main():
     verified_total = round(sum(e["claimed"] for e in entries if e["status"] == "verified"), 2)
     pending_total = round(sum(e["claimed"] for e in entries if e["status"] != "verified"), 2)
     data = {
-        "updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updated": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "goal": GOAL,
         "verified_total": verified_total,
         "pending_total": pending_total,
