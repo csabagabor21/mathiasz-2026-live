@@ -3,16 +3,16 @@
 
 Reads the public Google Forms response Sheet (CSV), downloads each linked
 screenshot from Google Drive with a service-account key, and checks whether
-the photo was taken on the same calendar day as the submission:
+the photo is from the same calendar day as the submission -- no AI service
+and no API key needed:
 
   1. EXIF capture date (works for JPEGs that still carry EXIF), else
-  2. Meta Llama vision reading the activity date shown in the screenshot
+  2. Tesseract OCR reading the activity date shown in the screenshot
      (Strava / Google Fit / Apple Health render the workout date), else
   3. status stays "pending" (manual review by the organizer).
 
 Writes data.json for the public scoreboard. Only "verified" km counts.
 """
-import base64
 import csv
 import hashlib
 import io
@@ -27,6 +27,7 @@ from datetime import datetime, timezone
 def utcnow():
     return datetime.now(timezone.utc)
 
+
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_PATH = os.path.join(REPO_DIR, "validator", "validation.json")
 DATA_PATH = os.path.join(REPO_DIR, "data.json")
@@ -35,12 +36,24 @@ SHEET_CSV = os.environ.get(
     "https://docs.google.com/spreadsheets/d/1Fau2nH98Jzf2f5VhLpQPfdDDa8qFQYI47sc4rDC5HS0/gviz/tq?tqx=out:csv",
 )
 GOAL = int(os.environ.get("GOAL_KM", "2026"))
-LLAMA_URL = os.environ.get(
-    "LLAMA_API_URL", "https://api.llama.com/compat/v1/chat/completions"
-)
-LLAMA_MODEL = os.environ.get("LLAMA_MODEL", "Llama-4-Maverick-17B-128E-Instruct-FP8")
 
 EXIF_TAGS = (36867, 36868, 306)  # DateTimeOriginal, DateTimeDigitized, DateTime
+
+MONTHS = {
+    "január": 1, "januar": 1, "jan": 1, "january": 1,
+    "február": 2, "februar": 2, "feb": 2, "february": 2,
+    "március": 3, "marcius": 3, "már": 3, "mar": 3, "march": 3,
+    "április": 4, "aprilis": 4, "ápr": 4, "apr": 4, "april": 4,
+    "május": 5, "majus": 5, "máj": 5, "maj": 5, "may": 5,
+    "június": 6, "junius": 6, "jún": 6, "jun": 6, "june": 6,
+    "július": 7, "julius": 7, "júl": 7, "jul": 7, "july": 7,
+    "augusztus": 8, "aug": 8, "august": 8,
+    "szeptember": 9, "szept": 9, "sept": 9, "sep": 9, "september": 9,
+    "október": 10, "oktober": 10, "okt": 10, "oct": 10, "october": 10,
+    "november": 11, "nov": 11,
+    "december": 12, "dec": 12,
+}
+TODAY_WORDS = re.compile(r"\btoday\b|\bma\b")
 
 
 def parse_hu_ts(s):
@@ -130,54 +143,67 @@ def exif_date(img_bytes):
     return None
 
 
-def vision_date(img_bytes, api_key):
-    import requests
+def ocr_text(img_bytes):
+    """Classic OCR (Tesseract binary), no AI service. None if unavailable."""
+    import shutil
+    import subprocess
 
-    b64 = base64.b64encode(img_bytes).decode("ascii")
-    payload = {
-        "model": LLAMA_MODEL,
-        "max_tokens": 120,
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "This is a fitness app screenshot (Strava, Google Fit or Apple Health). "
-                        "On which calendar date was the workout done? Use the activity date shown in the image. "
-                        'Reply ONLY with JSON like {"activity_date": "YYYY-MM-DD"}, '
-                        'or {"activity_date": null} if no date is visible.',
-                    },
-                    {
-                        "type": "image_url",
-                        "image_url": {"url": "data:image/jpeg;base64," + b64},
-                    },
-                ],
-            }
-        ],
-    }
-    r = requests.post(
-        LLAMA_URL,
-        headers={
-            "Authorization": "Bearer " + api_key,
-            "Content-Type": "application/json",
-        },
-        json=payload,
-        timeout=180,
-    )
-    r.raise_for_status()
-    txt = r.json()["choices"][0]["message"]["content"] or ""
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", txt)
-    if not m:
+    if shutil.which("tesseract") is None:
         return None
     try:
-        return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
-    except ValueError:
+        p = subprocess.run(
+            ["tesseract", "stdin", "stdout", "-l", "hun+eng"],
+            input=img_bytes,
+            capture_output=True,
+            timeout=180,
+        )
+    except Exception:
         return None
+    if p.returncode != 0 or not p.stdout:
+        return None
+    return p.stdout.decode("utf-8", "replace")
 
 
-def judge(fid, sub, sa_key, llama_key):
-    """Return (status, evidence). status in verified|pending|mismatch."""
+def find_dates_in_text(text):
+    """Return (candidates, today_flag). candidates: set of (year|None, month, day)."""
+    t = (text or "").lower()
+    cands = set()
+    today = bool(TODAY_WORDS.search(t))
+    for m in re.finditer(r"(\d{4})\s*[.\-/]\s*(\d{1,2})\s*[.\-/]\s*(\d{1,2})", t):
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if 1 <= mo <= 12 and 1 <= d <= 31:
+            cands.add((y, mo, d))
+    for m in re.finditer(r"(\d{1,2})\s*[.\-/]\s*(\d{1,2})\s*[.\-/]\s*(\d{4})", t):
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if 1 <= mo <= 12 and 1 <= d <= 31:
+            cands.add((y, mo, d))
+    letters = "a-záéíóöőúüű"
+    for name, mon in MONTHS.items():
+        for m in re.finditer(
+            rf"(?<![{letters}]){re.escape(name)}\.?(?![{letters}])", t
+        ):
+            window = t[max(0, m.start() - 8):m.end() + 8]
+            for d in re.findall(r"\d{1,2}", window):
+                dd = int(d)
+                if 1 <= dd <= 31:
+                    cands.add((None, mon, dd))
+    return cands, today
+
+
+def ocr_same_day(text, sub):
+    """Match an OCR-read date against the submission day. Returns evidence or None."""
+    cands, today = find_dates_in_text(text)
+    for (y, mo, d) in sorted(cands, key=lambda c: (c[0] or 0, c[1], c[2])):
+        if mo == sub.month and d == sub.day and (y is None or y == sub.year):
+            tag = f"{y}-{mo:02d}-{d:02d}" if y else f"????-{mo:02d}-{d:02d}"
+            return f"ocr:{tag}"
+    if today:
+        return "ocr:today"
+    return None
+
+
+def judge(fid, sub, sa_key):
+    """Return (status, evidence). status in verified|pending|mismatch. No AI used."""
     if not fid:
         return "pending", "no-image"
     if sub is None:
@@ -193,17 +219,13 @@ def judge(fid, sub, sa_key, llama_key):
         if exd == sub.date():
             return "verified", f"exif:{exd.isoformat()}"
         return "mismatch", f"exif:{exd.isoformat()}"
-    if not llama_key:
-        return "pending", "no-ai-key"
-    try:
-        vd = vision_date(blob, llama_key)
-    except Exception:
-        return "pending", "ai-error"
-    if vd is None:
-        return "pending", "ai-no-date"
-    if vd == sub.date():
-        return "verified", f"ai:{vd.isoformat()}"
-    return "mismatch", f"ai:{vd.isoformat()}"
+    txt = ocr_text(blob)
+    if txt is None:
+        return "pending", "ocr-missing"
+    ev = ocr_same_day(txt, sub)
+    if ev:
+        return "verified", ev
+    return "pending", "ocr-no-date"
 
 
 def fetch_csv(url):
@@ -213,7 +235,6 @@ def fetch_csv(url):
 
 def main():
     sa_key = os.environ.get("GOOGLE_SA_KEY", "")
-    llama_key = os.environ.get("LLAMA_API_KEY", "")
     try:
         with open(STATE_PATH, encoding="utf-8") as f:
             prev = json.load(f)
@@ -257,7 +278,7 @@ def main():
                 rec.get("checked_at", "?"),
             )
         else:
-            status, evidence = judge(fid, sub, sa_key, llama_key)
+            status, evidence = judge(fid, sub, sa_key)
             checked = utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
             prev[rid] = {
                 "fp": rid,

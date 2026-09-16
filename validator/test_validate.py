@@ -10,8 +10,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from validate import (
     drive_file_id,
     exif_date,
+    find_dates_in_text,
     judge,
     mask_name,
+    ocr_same_day,
     parse_hu_ts,
     parse_km,
 )
@@ -82,10 +84,28 @@ class TestSameDay(unittest.TestCase):
 
     def test_judge_pending_paths(self):
         sub = parse_hu_ts("2026.09.16. 12:03:30")
-        self.assertEqual(judge("", sub, "K", "K")[0], "pending")  # no image
-        self.assertEqual(judge("FID", None, "K", "K")[0], "pending")  # no date
-        st, ev = judge("FID", sub, "", "")  # no service account
+        self.assertEqual(judge("", sub, "K")[0], "pending")  # no image
+        self.assertEqual(judge("FID", None, "K")[0], "pending")  # no date
+        st, ev = judge("FID", sub, "")  # no service account
         self.assertEqual((st, ev), ("pending", "no-drive-access"))
+
+    def test_ocr_dates(self):
+        sub = parse_hu_ts("2026.09.16. 12:03:30")
+        self.assertIsNotNone(ocr_same_day("Morning Run - September 16, 2026 - 5.2 km", sub))
+        self.assertIsNotNone(ocr_same_day("Futas, szept. 16. tav 5 km", sub))
+        self.assertIsNotNone(ocr_same_day("2026.09.16\nDistance 5.20", sub))
+        self.assertIsNotNone(ocr_same_day("16.09.2026 - 5 km", sub))
+        self.assertIsNone(ocr_same_day("Run - Sep 10, 2026 - 5 km", sub))
+        self.assertIsNone(ocr_same_day("Total 12345 steps, 320 kcal", sub))
+
+    def test_ocr_today_word(self):
+        sub = parse_hu_ts("2026.09.16. 12:03:30")
+        self.assertIsNotNone(ocr_same_day("Today's activity: 5 km", sub))
+        self.assertIsNotNone(ocr_same_day("MA 5 KM", sub))
+        # "ma" inside other words must NOT match
+        cands, today = find_dates_in_text("Marathon hero: great man, 5 km")
+        self.assertFalse(today)
+        self.assertEqual(cands, set())
 
 
 if __name__ == "__main__":

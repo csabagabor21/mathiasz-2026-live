@@ -1,20 +1,26 @@
-# Mathiász 2026 km — élő tábla + képernyőkép-dátum ellenőrzés
+# Mathiász 2026 km — élő tábla + aznapi kép-ellenőrzés (AI nélkül)
 
 ## Működés
 - `index.html` a publikus tábla (GitHub Pagesről megy, mindenkinek élőben).
-- A tábla a `data.json`-ból olvas: **csak az igazolt km számít** bele az összegbe.
-- `.github/workflows/validate.yml` 10 percenként fut: lehúzza a Forms-válasz Sheetet,
-  letölti a képernyőképeket Drive-ról, és megnézi, hogy a kép **aznap készült-e**,
-  amikor feltöltötték (EXIF-dátum, ha van; különben Meta Llama vision olvassa ki
-  a dátumot a képről). Eredmény → `data.json` + `validator/validation.json`.
+- A táblán **csak az igazolt km** számít bele az összegbe.
+- `.github/workflows/validate.yml` ellenőrzi a beküldéseket:
+  1. **Azonnal**: a Form `apps-script/Code.gs` webhookja minden beküldéskor
+     indítja (`repository_dispatch`), ~1–3 perc alatt fenn az eredmény.
+  2. **Biztonsági háló**: 10 percenként időzített futás is van.
+- Az ellenőrzés azt nézi, hogy a kép **aznap készült-e**, amikor feltöltötték —
+  semmi AI, semmi kulcs:
+  1. EXIF-felvétel dátuma (JPEG-eknél, ha van),
+  2. különben Tesseract OCR kiolvassa a dátumot a képről
+     (a Strava / Google Fit / Apple Health kiírja az edzés napját),
+  3. ha egyik sem megy: „ellenőrzés alatt" (szervezői döntésre vár).
 
 ## Beüzemelés (egyszeri)
 1. Google Drive: a Form feltöltési mappáját oszd meg olvasásra ezzel a címmel:
    `mathiasz-validator@summit-14b74.iam.gserviceaccount.com` (Megtekintő).
-2. GitHub repo Secrets (`Settings → Secrets → Actions`):
-   - `GOOGLE_SA_KEY`: a service account JSON-kulcsa.
-   - `LLAMA_API_KEY`: Meta Llama API-kulcs (e nélkül csak az EXIF-es JPEG-ek
-     igazolódnak automatikusan; a PNG-képernyőképek „ellenőrzés alatt" maradnak).
-3. `Actions → validate-screenshots → Run workflow` az első futtatáshoz.
+   Enélkül a validátor nem éri el a képeket, minden „ellenőrzés alatt" marad.
+2. GitHub repo Secrets (`Settings → Secrets → Actions`): `GOOGLE_SA_KEY`
+   (service account JSON-kulcs) — már beállítva.
+3. Realtime webhook: `apps-script/Code.gs` telepítése a leírása szerint
+   (kell hozzá egy GitHub classic PAT `repo` joggal).
 
-Költség: GitHub Actions ingyenes keretben elfér, Firebase nem kell.
+Költség: minden ingyenes keretben elfér (Actions + Pages), Firebase nem kell.

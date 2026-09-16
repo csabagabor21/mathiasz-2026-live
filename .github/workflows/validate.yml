@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "*/10 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [form-submit]
 
 permissions:
   contents: write
@@ -16,12 +18,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng tesseract-ocr-hun
       - run: pip install -r validator/requirements.txt
       - name: Validate screenshots
         run: python validator/validate.py
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
-          LLAMA_API_KEY: ${{ secrets.LLAMA_API_KEY }}
       - name: Commit results
         run: |
           git config user.name "mathiasz-validator"
