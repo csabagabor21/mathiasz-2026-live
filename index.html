@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathiász Diáksport Nap — 2026 km LIVE</title>
+<style>
+  :root{
+    --bg:#05090f; --card:#0b1524; --line:#16324a;
+    --acc:#1f9dff; --acc2:#5fd4ff; --warn:#fbbf24; --err:#f87171;
+    --txt:#eef6ff; --mut:#7d93a8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1000px 480px at 50% -12%,#0a2c4d 0%,var(--bg) 62%);color:var(--txt);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;min-height:100vh}
+  header{text-align:center;padding:32px 14px 18px}
+  .brand{font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-style:italic;font-size:clamp(30px,9vw,88px);line-height:.95;color:var(--acc);letter-spacing:.01em;text-shadow:2px 2px 0 #e8f4ff,5px 5px 0 rgba(0,0,0,.6)}
+  .tagline{margin-top:10px;font-size:clamp(10px,2.6vw,15px);font-weight:800;letter-spacing:.32em;color:var(--acc)}
+  .livedot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--acc);margin-right:10px;box-shadow:0 0 10px var(--acc);animation:pulse 1.2s infinite}
+  .panel-wrap{max-width:940px;margin:0 auto;padding:0 14px}
+  .panel{background:repeating-linear-gradient(115deg,#0c1626 0 14px,#080f1c 14px 28px);border-left:7px solid var(--acc);border-right:7px solid var(--acc);transform:skewX(-6deg);display:flex;align-items:center;justify-content:space-evenly;gap:6px;padding:clamp(18px,4vw,34px) 8px;box-shadow:0 18px 50px rgba(0,0,0,.55),0 0 34px rgba(31,157,255,.14)}
+  .panel>*{transform:skewX(6deg)}
+  .side{text-align:center;min-width:0}
+  .num{font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-style:italic;font-size:clamp(32px,10.5vw,112px);line-height:1;color:#fff;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .goal-side .num{color:var(--acc)}
+  .cap{margin-top:8px;font-size:clamp(9px,2.2vw,12px);font-weight:800;letter-spacing:.24em;color:var(--mut)}
+  .sep{font-size:clamp(26px,6vw,56px);font-weight:900;color:#3d3431}
+  .under{display:flex;gap:8px;justify-content:center;align-items:center;margin-top:8px;font-size:13px;color:var(--mut);flex-wrap:wrap}
+  @media(max-width:560px){.brand{font-size:12vw;line-height:.95}.tagline{letter-spacing:.1em;font-size:9px;white-space:normal}.panel{flex-direction:column;transform:none;border-left-width:5px;border-right-width:5px;padding:20px 8px;gap:2px}.panel>*{transform:none}.side .num{font-size:16vw}.sep{display:none}.goal-side{border-top:1px solid var(--line);margin-top:12px;padding:12px 4px 0;width:100%}.goal-side .num{font-size:10vw}.cap{letter-spacing:.14em;font-size:9px}}
+  main{max-width:1080px;margin:0 auto;padding:12px 16px 60px}
+  .grid{display:grid;grid-template-columns:1.4fr .9fr;gap:14px}
+  @media(max-width:820px){.grid{grid-template-columns:1fr}}
+  .card{background:linear-gradient(180deg,#16203a,#101830);border:1px solid var(--line);border-radius:18px;padding:20px}
+  .bignum{font-size:clamp(56px,9vw,120px);font-weight:900;line-height:1;font-variant-numeric:tabular-nums}
+  .bignum small{font-size:.28em;color:var(--mut);font-weight:700}
+  .goal{color:var(--mut);font-size:15px;margin-top:6px}
+  .bar{height:14px;background:#0a1626;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:14px 0 4px}
+  .bar>i{display:block;height:100%;width:0%;background:linear-gradient(90deg,#0b5fa5,var(--acc) 55%,var(--acc2));box-shadow:0 0 14px rgba(31,157,255,.55);transition:width .6s ease}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:#0c1428;border:1px solid var(--line);border-radius:14px;padding:12px}
+  .stat span{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
+  .stat strong{display:block;font-size:24px;margin-top:4px;font-variant-numeric:tabular-nums}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .dot{width:12px;height:12px;border-radius:50%;background:var(--acc);box-shadow:0 0 12px var(--acc);animation:pulse 1.2s infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  .mono{font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,Consolas,monospace}
+  #syncMs{font-size:13px;color:var(--mut)}
+  #status{font-size:13px;margin-top:8px;min-height:20px}
+  #status.ok{color:var(--acc)} #status.err{color:var(--err)} #status.warn{color:var(--warn)}
+  details{margin-top:14px}
+  summary{cursor:pointer;color:var(--acc2);font-weight:700}
+  label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
+  input,select{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#0b1329;color:var(--txt);font-size:14px}
+  button{cursor:pointer;border:0;border-radius:12px;padding:12px 16px;font-weight:800;font-size:15px}
+  .btn{background:var(--acc);color:#05281a}
+  .btn2{background:#22314f;color:var(--txt)}
+  .hint{font-size:13px;color:var(--mut);line-height:1.6}
+  code{background:#0b1329;padding:2px 6px;border-radius:6px;font-size:12px}
+  ol.hint{padding-left:20px}
+  #log{max-height:180px;overflow:auto;font-size:12px;background:#0b1329;border:1px solid var(--line);border-radius:10px;padding:10px;margin-top:10px}
+  #lastTable{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+  #lastTable td,#lastTable th{border-bottom:1px solid var(--line);padding:6px;text-align:left}
+  .big-btn{font-size:18px;padding:14px 22px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">MATHIÁSZ DIÁKSPORT</div>
+  <div class="tagline"><span class="livedot"></span>LIVE SCORE • MOZGÁSBAN AZ ISKOLA</div>
+</header>
+<main>
+  <section class="panel-wrap">
+    <div class="panel">
+      <div class="side"><div class="num"><span id="total">0,00</span></div><div class="cap">TELJESÍTETT KM</div></div>
+      <div class="sep">/</div>
+      <div class="side goal-side"><div class="num">[ <span id="goalLbl">2026</span> ]</div><div class="cap">KITŰZÖTT CÉL</div></div>
+    </div>
+    <div class="bar"><i id="fill"></i></div>
+    <div class="under"><b id="pct">0,00%</b><span>•</span><span>hiányzik: <b id="left" class="mono">2026,00 km</b></span></div>
+    <div class="under mono"><span class="dot"></span><span id="syncMs">szinkron: —</span></div>
+    <div class="under" id="verifyLine">✓ 0 km igazolva • ⏳ 0 km ellenőrzés alatt</div>
+  </section>
+</main>
+<script>
+(function(){
+"use strict";
+var __stub={textContent:"",innerHTML:"",value:"",style:{},children:[],appendChild:function(){},prepend:function(){},remove:function(){}};
+var $=function(id){return document.getElementById(id)||__stub;};
+var DEFAULT_CSV="https://docs.google.com/spreadsheets/d/1Fau2nH98Jzf2f5VhLpQPfdDDa8qFQYI47sc4rDC5HS0/gviz/tq?tqx=out:csv";
+var state={goal:2026,csv:DEFAULT_CSV,freq:5,demo:false,total:0,count:0,lastSync:0,timer:null,raf:null};
+
+function log(m){var l=$("log");var d=document.createElement("div");d.textContent=new Date().toLocaleTimeString("hu-HU")+" "+m;l.prepend(d);while(l.children.length>30)l.lastChild.remove();}
+function setStatus(cls,msg){var s=$("status");s.className=cls;s.textContent=msg;}
+function fmt(n,d){return n.toLocaleString("hu-HU",{minimumFractionDigits:d===undefined?2:d,maximumFractionDigits:d===undefined?2:d});}
+
+// Ezredmásodperces szinkron-óra (vizuális ms-pontosság)
+function tick(){
+  if(!state.lastSync){$("syncMs").textContent="szinkron: —";requestAnimationFrame(tick);return;}
+  var el=Date.now()-state.lastSync;
+  var dt=new Date(state.lastSync);
+  var base=dt.toLocaleTimeString("hu-HU",{hour12:false})+"."+String(dt.getMilliseconds()).padStart(3,"0");
+  $("syncMs").textContent="utolsó szinkron: "+base+"  •  +"+(el/1000).toFixed(3)+" mp";
+  requestAnimationFrame(tick);
+}
+
+function parseKm(v){
+  if(v===null||v===undefined)return NaN;
+  var s=String(v).toLowerCase().replace(/km|kilométer|kilometer|m\b/g,"").trim().replace(/\s/g,"").replace(",",".");
+  var m=s.match(/-?\d+(\.\d+)?/);
+  if(!m)return NaN;
+  var n=parseFloat(m[0]);
+  if(!isFinite(n)||n<0||n>1000000)return NaN;
+  return n;
+}
+// Minimál CSV parser (idézőjelekkel)
+function parseCSV(t){
+  var rows=[],row=[],cur="",q=false;
+  for(var i=0;i<t.length;i++){var c=t[i];
+    if(q){if(c==='"'){if(t[i+1]==='"'){cur+='"';i++;}else q=false;}else cur+=c;}
+    else{if(c==='"')q=true;else if(c===","){row.push(cur);cur="";}else if(c==="\n"){row.push(cur);rows.push(row);row=[];cur="";}else if(c!=="\r")cur+=c;}
+  }
+  if(cur!==""||row.length){row.push(cur);rows.push(row);}
+  return rows.filter(function(r){return r.length>1||(r.length===1&&String(r[0]).trim()!=="");});
+}
+function findKmCol(head){
+  var keys=["km","kilom","táv","tav","distance","hossz"];
+  for(var i=0;i<head.length;i++){var h=String(head[i]).toLowerCase();for(var k=0;k<keys.length;k++)if(h.indexOf(keys[k])>=0)return i;}
+  // fallback: amelyik oszlopban a legtöbb szám van
+  return -1;
+}
+function findPicCol(head){
+  for(var i=0;i<head.length;i++){var h=String(head[i]).toLowerCase();if(h.indexOf("kép")>=0||h.indexOf("kep")>=0||h.indexOf("fotó")>=0||h.indexOf("foto")>=0||h.indexOf("screenshot")>=0||h.indexOf("fájl")>=0||h.indexOf("file")>=0||h.indexOf("drive")>=0)return i;}
+  return -1;
+}
+function render(total,count,pics,rows){
+  state.total=total;state.count=count;
+  $("total").textContent=fmt(total);
+  var left=Math.max(0,state.goal-total);
+  $("left").textContent=fmt(left)+" km";
+  var pct=Math.min(100,total/state.goal*100);
+  $("fill").style.width=pct+"%";
+  $("pct").textContent=fmt(pct)+" %";
+  $("count").textContent=count;
+  $("pics").textContent=pics;
+  $("avg").textContent=count?fmt(total/count):"—";
+  $("goalLbl").textContent=state.goal;
+  var t=$("lastTable");t.innerHTML="<tr><th>Idő</th><th>Km</th><th>Név / sor</th></tr>";
+  rows.slice(-6).reverse().forEach(function(r){
+    var tr=document.createElement("tr");
+    [r.when,r.km,r.who].forEach(function(x){var td=document.createElement("td");td.textContent=x;tr.appendChild(td);});
+    t.appendChild(tr);
+  });
+  if(total>=state.goal){setStatus("ok","🎉 CÉL ELÉRVE: "+fmt(total)+" / "+state.goal+" km!");}
+}
+function aggregate(rows){
+  if(!rows.length)return;
+  var head=rows[0],kmCol=findKmCol(head),picCol=findPicCol(head);
+  var freqMap={};
+  if(kmCol<0){ // szám-keresés
+    var best=-1,bestN=-1;
+    for(var c=0;c<head.length;c++){var n=0;for(var r=1;r<rows.length;r++)if(!isNaN(parseKm(rows[r][c])))n++;if(n>bestN){bestN=n;best=c;}}
+    kmCol=best;
+  }
+  var total=0,count=0,pics=0,last=[];
+  for(var i=1;i<rows.length;i++){
+    var v=parseKm(rows[i][kmCol]);
+    if(!isNaN(v)){total+=v;count++;
+      last.push({when:String(rows[i][0]||("#"+i)).slice(0,19),km:fmt(v)+" km",who:String(rows[i][1]||("sor "+(i+1))).slice(0,28)});
+    }
+    if(picCol>=0&&String(rows[i][picCol]||"").trim().length>3)pics++;
+    else{for(var j=0;j<rows[i].length;j++)if(/drive\.google|docs\.google.*file|https?:\/\/.*\.(png|jpe?g)/i.test(String(rows[i][j]))) {pics++;break;}}
+  }
+  render(total,count,pics,last);
+}
+
+function poll(){
+  if(state.demo||!state.csv){demoTick(true);return;}
+  fetch("data.json?_="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json();})
+  .then(function(d){
+    if(!d||typeof d.verified_total!=="number")throw 0;
+    state.goal=d.goal||2026;state.lastSync=Date.now();
+    render(d.verified_total,d.verified_count||0,0,[]);
+    var vl=$("verifyLine");
+    if(vl&&vl.textContent!==undefined)vl.textContent="✓ "+fmt(d.verified_total)+" km igazolva • ⏳ "+fmt(d.pending_total||0)+" km ellenőrzés alatt";
+    setStatus("ok","✔ Ellenőrzött adatok • "+new Date(state.lastSync).toLocaleTimeString("hu-HU",{hour12:false}));
+    log("verified sync OK");
+  }).catch(function(){pollCSV();});
+}
+function pollCSV(){
+  var url=state.csv+(state.csv.indexOf("?")>=0?"&":"?")+"&_="+Date.now();
+  fetch(url).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.text();})
+  .then(function(t){
+    var rows=parseCSV(t);
+    state.lastSync=Date.now();
+    aggregate(rows);
+    var vl=$("verifyLine");
+    if(vl&&vl.textContent!==undefined)vl.textContent="Ellenőrzés még nem fut — nyers összesítés";
+    setStatus("ok","✔ Élő Google-kapcsolat • "+rows.length+" sor • "+new Date(state.lastSync).toLocaleTimeString("hu-HU",{hour12:false}));
+    log("sync OK: "+rows.length+" sor");
+  }).catch(function(e){
+    setStatus("err","⚠ Hálózati hiba ("+e.message+") — demo módban folytatom. Ellenőrizd a megosztást.");
+    log("sync ERR: "+e.message);
+  });
+}
+// Demo szimuláció (vetítés-teszt net nélkül)
+var demoTotal=0,demoCount=0,demoRows=[];
+function demoTick(fromPoll){
+  if(state.lastSync===0)state.lastSync=Date.now();
+  var add=+(Math.random()*4+0.5).toFixed(2);
+  demoTotal+=add;demoCount++;
+  demoRows.push({when:new Date().toLocaleTimeString("hu-HU",{hour12:false}),km:fmt(add)+" km",who:"Demo futó #"+demoCount});
+  if(fromPoll)state.lastSync=Date.now();
+  render(demoTotal,demoCount,Math.floor(demoCount*0.7),demoRows);
+  if(state.demo)setStatus("warn","Demo módban fut — add meg a Sheet CSV linket lent. (Demo: "+fmt(demoTotal)+" km)");
+}
+function restart(){
+  if(state.timer)clearInterval(state.timer);
+  demoTotal=state.total;demoCount=state.count;
+  state.timer=setInterval(poll,state.freq*1000);
+  $("every").textContent=state.freq+" mp";
+}
+function load(){
+  try{var s=JSON.parse(localStorage.getItem("m2026")||"{}");
+    if(s.csv){state.csv=s.csv;$("csvUrl").value=s.csv;state.demo=false;}
+    if(s.freq){state.freq=s.freq;$("freq").value=String(s.freq);}
+    if(s.goal){state.goal=s.goal;$("goalInp").value=s.goal;}
+  }catch(e){}
+  if(state.csv)$("csvUrl").value=state.csv;
+}
+function persist(){localStorage.setItem("m2026",JSON.stringify({csv:state.csv,freq:state.freq,goal:state.goal}));}
+$("saveBtn").onclick=function(){
+  state.csv=$("csvUrl").value.trim();
+  state.freq=parseInt($("freq").value,10)||5;
+  state.goal=parseFloat($("goalInp").value)||2026;
+  state.demo=!state.csv;
+  demoTotal=0;demoCount=0;demoRows=[];
+  persist();restart();poll();
+  log(state.demo?"demo mód":"éles URL mentve");
+};
+$("demoBtn").onclick=function(){state.demo=true;demoTotal=0;demoCount=0;demoRows=[];restart();poll();};
+$("clearBtn").onclick=function(){state.csv="";$("csvUrl").value="";state.demo=true;persist();restart();};
+$("freq").onchange=function(){state.freq=parseInt($("freq").value,10)||5;persist();restart();};
+$("goalInp").onchange=function(){state.goal=parseFloat($("goalInp").value)||2026;persist();render(state.total,state.count,parseInt($("pics").textContent,10)||0,demoRows);};
+$("pollBtn").onclick=poll;
+$("fullBtn").onclick=function(){if(document.documentElement.requestFullscreen)document.documentElement.requestFullscreen();};
+load();restart();poll();requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
