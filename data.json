@@ -1,9 +1,16 @@
 {
- "updated": "2026-09-18T05:15:57Z",
+ "updated": "2026-09-18T09:49:22Z",
  "goal": 2026,
  "verified_total": 0,
- "pending_total": 0,
+ "pending_total": 1787.0,
  "verified_count": 0,
- "pending_count": 0,
- "entries": []
+ "pending_count": 1,
+ "entries": [
+  {
+   "name": "Sanyika",
+   "claimed": 1787.0,
+   "status": "pending",
+   "submitted": "2026.09.18. 11:14:30"
+  }
+ ]
 }
