@@ -5,5 +5,12 @@
   "evidence": "download-failed",
   "checked_at": "2026-09-18T09:49:22Z",
   "claimed": 1787.0
+ },
+ "99e9e14aff356943": {
+  "fp": "99e9e14aff356943",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-23T14:33:49Z",
+  "claimed": 2.5
  }
 }
