@@ -1,22 +1,9 @@
 {
- "updated": "2026-09-24T13:49:28Z",
+ "updated": "2026-09-24T18:00:17Z",
  "goal": 2026,
  "verified_total": 0,
- "pending_total": 25.0,
+ "pending_total": 0,
  "verified_count": 0,
- "pending_count": 2,
- "entries": [
-  {
-   "name": "Gabor D.",
-   "claimed": 10.0,
-   "status": "pending",
-   "submitted": "2026.09.24. 13:49:38"
-  },
-  {
-   "name": "Bababa",
-   "claimed": 15.0,
-   "status": "pending",
-   "submitted": "2026.09.24. 13:53:32"
-  }
- ]
+ "pending_count": 0,
+ "entries": []
 }
