@@ -12,5 +12,19 @@
   "evidence": "download-failed",
   "checked_at": "2026-09-23T14:33:49Z",
   "claimed": 2.5
+ },
+ "ac9b68f1330b1256": {
+  "fp": "ac9b68f1330b1256",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-24T13:49:28Z",
+  "claimed": 10.0
+ },
+ "70595ee4dbeb4692": {
+  "fp": "70595ee4dbeb4692",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-24T13:49:28Z",
+  "claimed": 15.0
  }
 }
