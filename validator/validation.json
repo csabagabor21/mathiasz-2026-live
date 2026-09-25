@@ -26,5 +26,1384 @@
   "evidence": "download-failed",
   "checked_at": "2026-09-24T13:49:28Z",
   "claimed": 15.0
+ },
+ "082530571f283a14": {
+  "fp": "082530571f283a14",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "1ac10cba8cc15f03": {
+  "fp": "1ac10cba8cc15f03",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "9c8cbf593bc52090": {
+  "fp": "9c8cbf593bc52090",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "35d363c4a58de180": {
+  "fp": "35d363c4a58de180",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "63cca2ad2e0f4c1b": {
+  "fp": "63cca2ad2e0f4c1b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "04753842b0c2e4cb": {
+  "fp": "04753842b0c2e4cb",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "0ac7e99e6aaf5a91": {
+  "fp": "0ac7e99e6aaf5a91",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "4a73ed5f6f4bb7c4": {
+  "fp": "4a73ed5f6f4bb7c4",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "223ea7649afc9cab": {
+  "fp": "223ea7649afc9cab",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "101cc3448bacaa71": {
+  "fp": "101cc3448bacaa71",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "ab7db74d24166c11": {
+  "fp": "ab7db74d24166c11",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "3ae4e99961d2adc4": {
+  "fp": "3ae4e99961d2adc4",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 18.0
+ },
+ "a233b6d115f2fa69": {
+  "fp": "a233b6d115f2fa69",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "7ea67ae8d60e86e8": {
+  "fp": "7ea67ae8d60e86e8",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "f8660f991f99ca38": {
+  "fp": "f8660f991f99ca38",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "328dedd5f640a414": {
+  "fp": "328dedd5f640a414",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "86a450f1e614e211": {
+  "fp": "86a450f1e614e211",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "ef95914f5756d6ee": {
+  "fp": "ef95914f5756d6ee",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "e31660bf7e01db0a": {
+  "fp": "e31660bf7e01db0a",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 9.0
+ },
+ "9fcf1c04b1e4aa2d": {
+  "fp": "9fcf1c04b1e4aa2d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 1.0
+ },
+ "af6ef39191fe1def": {
+  "fp": "af6ef39191fe1def",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 1.0
+ },
+ "3805f53b2675b6a7": {
+  "fp": "3805f53b2675b6a7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "36cdc4283ca0eccd": {
+  "fp": "36cdc4283ca0eccd",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "3a0c979d16f55586": {
+  "fp": "3a0c979d16f55586",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "aa39a265620c02ca": {
+  "fp": "aa39a265620c02ca",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "7ae32116a965688d": {
+  "fp": "7ae32116a965688d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "88a3c6deb71b65a0": {
+  "fp": "88a3c6deb71b65a0",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "4a678e982d1e0e77": {
+  "fp": "4a678e982d1e0e77",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "14a68a9aa007ef0b": {
+  "fp": "14a68a9aa007ef0b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "8f1b6e3a01c0c21f": {
+  "fp": "8f1b6e3a01c0c21f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "149b76ca2e8c01a2": {
+  "fp": "149b76ca2e8c01a2",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 18.0
+ },
+ "6b79edcece4d9657": {
+  "fp": "6b79edcece4d9657",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "3ad7915007e143d1": {
+  "fp": "3ad7915007e143d1",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "adbd2ab366288ede": {
+  "fp": "adbd2ab366288ede",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 9.0
+ },
+ "865bea522a133683": {
+  "fp": "865bea522a133683",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "374e21ede87fea88": {
+  "fp": "374e21ede87fea88",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "c401e8496cb46725": {
+  "fp": "c401e8496cb46725",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "26c852a53f4e190e": {
+  "fp": "26c852a53f4e190e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "49920bd342609731": {
+  "fp": "49920bd342609731",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "62a1e1104065772f": {
+  "fp": "62a1e1104065772f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "df6aa0628a848724": {
+  "fp": "df6aa0628a848724",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "1b4c6931a25b3d9b": {
+  "fp": "1b4c6931a25b3d9b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "627adefc9a4381af": {
+  "fp": "627adefc9a4381af",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "a0549cfbc2867a52": {
+  "fp": "a0549cfbc2867a52",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "5d778a6fa17adfda": {
+  "fp": "5d778a6fa17adfda",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "513f92ab7c829374": {
+  "fp": "513f92ab7c829374",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "59e89fd00b48a33a": {
+  "fp": "59e89fd00b48a33a",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "4acb322d01a00149": {
+  "fp": "4acb322d01a00149",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "42c4bc00519c945e": {
+  "fp": "42c4bc00519c945e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 18.0
+ },
+ "4b86a4ce8c52482b": {
+  "fp": "4b86a4ce8c52482b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 20.0
+ },
+ "008e2dde4ab67023": {
+  "fp": "008e2dde4ab67023",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 20.0
+ },
+ "ee079e48cc23d541": {
+  "fp": "ee079e48cc23d541",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "73e5ff677cbeacd2": {
+  "fp": "73e5ff677cbeacd2",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "8de39fcf69a3930b": {
+  "fp": "8de39fcf69a3930b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "124fcc8f78e8f73b": {
+  "fp": "124fcc8f78e8f73b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "d7457d888e91a540": {
+  "fp": "d7457d888e91a540",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "62ed559e6eb59564": {
+  "fp": "62ed559e6eb59564",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 9.0
+ },
+ "4e0349cd2a2fbc25": {
+  "fp": "4e0349cd2a2fbc25",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "104daef4e3c18e1f": {
+  "fp": "104daef4e3c18e1f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "870f6d68650023ef": {
+  "fp": "870f6d68650023ef",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 1.0
+ },
+ "22d7b38df64ed39f": {
+  "fp": "22d7b38df64ed39f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "5ccefdb5b6604f5b": {
+  "fp": "5ccefdb5b6604f5b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "57f8775bb8bf1056": {
+  "fp": "57f8775bb8bf1056",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "cb4115e6b6cbaeca": {
+  "fp": "cb4115e6b6cbaeca",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "22187b242c869728": {
+  "fp": "22187b242c869728",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 1.0
+ },
+ "62d6c6de555a548c": {
+  "fp": "62d6c6de555a548c",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 20.0
+ },
+ "30053f23d976bab7": {
+  "fp": "30053f23d976bab7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "0735a896a8255082": {
+  "fp": "0735a896a8255082",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "b5a9f0ef52940bb4": {
+  "fp": "b5a9f0ef52940bb4",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "2d06d4d971b43e8c": {
+  "fp": "2d06d4d971b43e8c",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "100f967abde3f9c0": {
+  "fp": "100f967abde3f9c0",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "5715ef87d4f1753e": {
+  "fp": "5715ef87d4f1753e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "0e17d57a7fd818ab": {
+  "fp": "0e17d57a7fd818ab",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "b46a9a65c5b444ee": {
+  "fp": "b46a9a65c5b444ee",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "d18df881ac8bc47f": {
+  "fp": "d18df881ac8bc47f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "5d08deb6cb017fed": {
+  "fp": "5d08deb6cb017fed",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "4c54dc6ffc03f6b7": {
+  "fp": "4c54dc6ffc03f6b7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "2ba7782d6fa2cd27": {
+  "fp": "2ba7782d6fa2cd27",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "ea5e77d7b0af7c65": {
+  "fp": "ea5e77d7b0af7c65",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "eb8b41ac630708bf": {
+  "fp": "eb8b41ac630708bf",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "c9da4aa77f30e9e5": {
+  "fp": "c9da4aa77f30e9e5",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "3243617c7f5ee842": {
+  "fp": "3243617c7f5ee842",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 16.0
+ },
+ "26ed444cc95c2191": {
+  "fp": "26ed444cc95c2191",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "7dbe5d5e477ea04d": {
+  "fp": "7dbe5d5e477ea04d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "2826ce37a902001f": {
+  "fp": "2826ce37a902001f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "4421ebbe06475429": {
+  "fp": "4421ebbe06475429",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "b9408cc108d484bd": {
+  "fp": "b9408cc108d484bd",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "9b63e27f274ce693": {
+  "fp": "9b63e27f274ce693",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "42c487684fc2de4f": {
+  "fp": "42c487684fc2de4f",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "974eb387ca5e8114": {
+  "fp": "974eb387ca5e8114",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "667ae574ed5bfa42": {
+  "fp": "667ae574ed5bfa42",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "f4e15394ccfad406": {
+  "fp": "f4e15394ccfad406",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "90a097bb3b6b1ce3": {
+  "fp": "90a097bb3b6b1ce3",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "93d94befaa3f5565": {
+  "fp": "93d94befaa3f5565",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "e871f6e7d18fc1f8": {
+  "fp": "e871f6e7d18fc1f8",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 20.0
+ },
+ "855fb9cdb2ba2236": {
+  "fp": "855fb9cdb2ba2236",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "3c64656db914b42e": {
+  "fp": "3c64656db914b42e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "15f0d854613bf56b": {
+  "fp": "15f0d854613bf56b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "d1c13a09769c5ee6": {
+  "fp": "d1c13a09769c5ee6",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "03405bfdab60fd25": {
+  "fp": "03405bfdab60fd25",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "fa5d405415442ca9": {
+  "fp": "fa5d405415442ca9",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "0966ad9e02b44047": {
+  "fp": "0966ad9e02b44047",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "884b8c74e77c9e30": {
+  "fp": "884b8c74e77c9e30",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "3e14bf0261436bde": {
+  "fp": "3e14bf0261436bde",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "67e03ca4ce817306": {
+  "fp": "67e03ca4ce817306",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "9be9eb6bb2517c0d": {
+  "fp": "9be9eb6bb2517c0d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "e6bf31ed16f26ec5": {
+  "fp": "e6bf31ed16f26ec5",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "e7b2dc4316618054": {
+  "fp": "e7b2dc4316618054",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "d295fdc988a39b78": {
+  "fp": "d295fdc988a39b78",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "d1f44a4076257975": {
+  "fp": "d1f44a4076257975",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "dae115e8d63a01bd": {
+  "fp": "dae115e8d63a01bd",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "edcb2c67582772af": {
+  "fp": "edcb2c67582772af",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "549d5c0146d2c21c": {
+  "fp": "549d5c0146d2c21c",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "e3f35f7f359e578a": {
+  "fp": "e3f35f7f359e578a",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "f847bbdb00f6593a": {
+  "fp": "f847bbdb00f6593a",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 20.0
+ },
+ "a9a45a635a2173f3": {
+  "fp": "a9a45a635a2173f3",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "c218525bd57368b3": {
+  "fp": "c218525bd57368b3",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "70e102823efa3ba9": {
+  "fp": "70e102823efa3ba9",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "ebbcb4bd4fa6efd7": {
+  "fp": "ebbcb4bd4fa6efd7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "827237710dddc56d": {
+  "fp": "827237710dddc56d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "9dee47230e43bfee": {
+  "fp": "9dee47230e43bfee",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "05d6d9c844442925": {
+  "fp": "05d6d9c844442925",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "6fe61eb60613bebb": {
+  "fp": "6fe61eb60613bebb",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "51db496c276ec608": {
+  "fp": "51db496c276ec608",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "e7aeb61cf9d2a776": {
+  "fp": "e7aeb61cf9d2a776",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "219ef1e298abcfca": {
+  "fp": "219ef1e298abcfca",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 0.0
+ },
+ "17cf977e27731983": {
+  "fp": "17cf977e27731983",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "79611cdd232955d9": {
+  "fp": "79611cdd232955d9",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "9c2d4b29df873047": {
+  "fp": "9c2d4b29df873047",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "a30dac43096343dc": {
+  "fp": "a30dac43096343dc",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "c294248156214796": {
+  "fp": "c294248156214796",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "61c994404ec931b0": {
+  "fp": "61c994404ec931b0",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "7879e96924896e31": {
+  "fp": "7879e96924896e31",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "c49a38b9e9362286": {
+  "fp": "c49a38b9e9362286",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "3221c8e3416cdc40": {
+  "fp": "3221c8e3416cdc40",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "d140e91992d7ccb7": {
+  "fp": "d140e91992d7ccb7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "af60bbd45075bcff": {
+  "fp": "af60bbd45075bcff",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "0d79e82a6675276b": {
+  "fp": "0d79e82a6675276b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "f03fbb05840a615c": {
+  "fp": "f03fbb05840a615c",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "6124fb21edfa7a80": {
+  "fp": "6124fb21edfa7a80",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "3ab23a3436c1fc51": {
+  "fp": "3ab23a3436c1fc51",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "ea8135a163f5c7a4": {
+  "fp": "ea8135a163f5c7a4",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "9c5b30ca64be78d3": {
+  "fp": "9c5b30ca64be78d3",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 9.0
+ },
+ "4b17502770c5db98": {
+  "fp": "4b17502770c5db98",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "c4059d15ff4d7692": {
+  "fp": "c4059d15ff4d7692",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 18.0
+ },
+ "2ccc5d122c04fc1e": {
+  "fp": "2ccc5d122c04fc1e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "3f37ef81783a0baa": {
+  "fp": "3f37ef81783a0baa",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "de52e0a9a8489050": {
+  "fp": "de52e0a9a8489050",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "ac7f89c7fef83eb1": {
+  "fp": "ac7f89c7fef83eb1",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "152e0e57079c0dae": {
+  "fp": "152e0e57079c0dae",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "b3ea328857b99818": {
+  "fp": "b3ea328857b99818",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "cdf4d6a2882646ef": {
+  "fp": "cdf4d6a2882646ef",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "034bc2320a5f6178": {
+  "fp": "034bc2320a5f6178",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "9479c71ccddb44e2": {
+  "fp": "9479c71ccddb44e2",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "a023d9e1b7d04582": {
+  "fp": "a023d9e1b7d04582",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "b78c285826e744c8": {
+  "fp": "b78c285826e744c8",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "dcd150ec6dc16f7b": {
+  "fp": "dcd150ec6dc16f7b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "343f52b941cd2922": {
+  "fp": "343f52b941cd2922",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "aeed6d756bb44bc7": {
+  "fp": "aeed6d756bb44bc7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "5136d595935c8aaa": {
+  "fp": "5136d595935c8aaa",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "4e29e82e499117b0": {
+  "fp": "4e29e82e499117b0",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "a1a835e9a41c0448": {
+  "fp": "a1a835e9a41c0448",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "4887061f57f53892": {
+  "fp": "4887061f57f53892",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "a5f794ee00c72f36": {
+  "fp": "a5f794ee00c72f36",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "6f79ccbf8030591c": {
+  "fp": "6f79ccbf8030591c",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 7.0
+ },
+ "4caffb9a6ccb28d1": {
+  "fp": "4caffb9a6ccb28d1",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "53ae4d1856081864": {
+  "fp": "53ae4d1856081864",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "ee6e3ae0f04b2625": {
+  "fp": "ee6e3ae0f04b2625",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "863cdc9304ad0c6b": {
+  "fp": "863cdc9304ad0c6b",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 8.0
+ },
+ "83254ef586d4b269": {
+  "fp": "83254ef586d4b269",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "5ae7cb0c7b16cc7a": {
+  "fp": "5ae7cb0c7b16cc7a",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "7ff63b3047beab40": {
+  "fp": "7ff63b3047beab40",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "0f8abffa915e2886": {
+  "fp": "0f8abffa915e2886",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "7902f19ded97ed85": {
+  "fp": "7902f19ded97ed85",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "9ec1f9180c179a92": {
+  "fp": "9ec1f9180c179a92",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "b3ee9d5f49b79b71": {
+  "fp": "b3ee9d5f49b79b71",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "bf4595832f757264": {
+  "fp": "bf4595832f757264",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "2d391b49aa7bdea7": {
+  "fp": "2d391b49aa7bdea7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "e302eba8317eead9": {
+  "fp": "e302eba8317eead9",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 5.0
+ },
+ "576ee606ee6c522e": {
+  "fp": "576ee606ee6c522e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 9.0
+ },
+ "c680af0f26f5c276": {
+  "fp": "c680af0f26f5c276",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "c8030399143bc892": {
+  "fp": "c8030399143bc892",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "490759c44e3d5c78": {
+  "fp": "490759c44e3d5c78",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 21.0
+ },
+ "be6213578e89f19e": {
+  "fp": "be6213578e89f19e",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "828fd6a009a1e2a4": {
+  "fp": "828fd6a009a1e2a4",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "8d3d096447faaead": {
+  "fp": "8d3d096447faaead",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "197f103db00dffc8": {
+  "fp": "197f103db00dffc8",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 11.0
+ },
+ "7900e977ed86c4b2": {
+  "fp": "7900e977ed86c4b2",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 10.0
+ },
+ "a7a4921153c037b7": {
+  "fp": "a7a4921153c037b7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 6.0
+ },
+ "5ed9a54884548653": {
+  "fp": "5ed9a54884548653",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 1.0
+ },
+ "206c5a9a1be15cb7": {
+  "fp": "206c5a9a1be15cb7",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 3.0
+ },
+ "92e323403697d140": {
+  "fp": "92e323403697d140",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "e1e19e2c8fe1405d": {
+  "fp": "e1e19e2c8fe1405d",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "e50d8f5537f0aa54": {
+  "fp": "e50d8f5537f0aa54",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
+ },
+ "c40849b1103b8a97": {
+  "fp": "c40849b1103b8a97",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 2.0
+ },
+ "2a31638608ca8126": {
+  "fp": "2a31638608ca8126",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 4.0
+ },
+ "614436d616c8c4b4": {
+  "fp": "614436d616c8c4b4",
+  "status": "pending",
+  "evidence": "no-image",
+  "checked_at": "2026-09-25T13:42:25Z",
+  "claimed": 12.0
  }
 }

@@ -1,9 +1,1192 @@
 {
- "updated": "2026-09-25T08:09:57Z",
+ "updated": "2026-09-25T13:42:25Z",
  "goal": 2026,
  "verified_total": 0,
- "pending_total": 0,
+ "pending_total": 1234.0,
  "verified_count": 0,
- "pending_count": 0,
- "entries": []
+ "pending_count": 197,
+ "entries": [
+  {
+   "name": "GajdánCsaba",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:28:40"
+  },
+  {
+   "name": "Gábor J.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:29:51"
+  },
+  {
+   "name": "Takács S.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:29:51"
+  },
+  {
+   "name": "Lukács A.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:30:10"
+  },
+  {
+   "name": "Zsiros B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:30:48"
+  },
+  {
+   "name": "Papp L.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:01"
+  },
+  {
+   "name": "Nemet T.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:10"
+  },
+  {
+   "name": "Angyal a.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:15"
+  },
+  {
+   "name": "Virághalmi B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:20"
+  },
+  {
+   "name": "Csukás L.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:22"
+  },
+  {
+   "name": "Vörös V.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:24"
+  },
+  {
+   "name": "Nagy L.",
+   "claimed": 18.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:26"
+  },
+  {
+   "name": "Szijj Z.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:27"
+  },
+  {
+   "name": "Gelencsér Z.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:29"
+  },
+  {
+   "name": "Toth A.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:32"
+  },
+  {
+   "name": "Pádár Á.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:46"
+  },
+  {
+   "name": "Nagy A.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:51"
+  },
+  {
+   "name": "Darabos H.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:51"
+  },
+  {
+   "name": "Kristóf D.",
+   "claimed": 9.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:54"
+  },
+  {
+   "name": "Baján D.",
+   "claimed": 1.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:31:55"
+  },
+  {
+   "name": "Szabó P.",
+   "claimed": 1.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:03"
+  },
+  {
+   "name": "Végh H.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:05"
+  },
+  {
+   "name": "Vapetlics O.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:05"
+  },
+  {
+   "name": "Kismárton Á.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:07"
+  },
+  {
+   "name": "Balogh-Angyal Z.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:09"
+  },
+  {
+   "name": "Lang L.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:12"
+  },
+  {
+   "name": "Farkas E.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:13"
+  },
+  {
+   "name": "Csizmás D.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:13"
+  },
+  {
+   "name": "Kakuk B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:13"
+  },
+  {
+   "name": "Pintér G.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:18"
+  },
+  {
+   "name": "Ambrus P.",
+   "claimed": 18.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:20"
+  },
+  {
+   "name": "Luca T.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:23"
+  },
+  {
+   "name": "Lujber V.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:24"
+  },
+  {
+   "name": "Kovács B.",
+   "claimed": 9.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:31"
+  },
+  {
+   "name": "Szabó Á.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:31"
+  },
+  {
+   "name": "Tapolczai T.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:31"
+  },
+  {
+   "name": "Orbán L.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:41"
+  },
+  {
+   "name": "Horváth K.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:46"
+  },
+  {
+   "name": "Bozsik H.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:49"
+  },
+  {
+   "name": "Potocsnik C.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:50"
+  },
+  {
+   "name": "Zrinyi B.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:52"
+  },
+  {
+   "name": "Motika D.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:53"
+  },
+  {
+   "name": "Kiripolszki B.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:32:57"
+  },
+  {
+   "name": "Marcsik B.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:02"
+  },
+  {
+   "name": "Máté B.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:13"
+  },
+  {
+   "name": "Torma D.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:14"
+  },
+  {
+   "name": "Pulics L.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:15"
+  },
+  {
+   "name": "Halmos N.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:20"
+  },
+  {
+   "name": "Vajda V.",
+   "claimed": 18.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:28"
+  },
+  {
+   "name": "Major L.",
+   "claimed": 20.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:29"
+  },
+  {
+   "name": "Szabó Z.",
+   "claimed": 20.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:30"
+  },
+  {
+   "name": "Gádor V.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:37"
+  },
+  {
+   "name": "Ábrahám L.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:37"
+  },
+  {
+   "name": "Papp M.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:42"
+  },
+  {
+   "name": "Stefán Z.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:42"
+  },
+  {
+   "name": "Juhász B.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:48"
+  },
+  {
+   "name": "Kovács E.",
+   "claimed": 9.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:49"
+  },
+  {
+   "name": "Katona Z.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:51"
+  },
+  {
+   "name": "Dányádi K.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:51"
+  },
+  {
+   "name": "Csuka E.",
+   "claimed": 1.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:52"
+  },
+  {
+   "name": "Pusztai Á.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:55"
+  },
+  {
+   "name": "Csonka G.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:55"
+  },
+  {
+   "name": "Végh L.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:33:59"
+  },
+  {
+   "name": "Kiss N.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:01"
+  },
+  {
+   "name": "Wilhelm A.",
+   "claimed": 1.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:06"
+  },
+  {
+   "name": "Mészáros S.",
+   "claimed": 20.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:13"
+  },
+  {
+   "name": "Márton E.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:15"
+  },
+  {
+   "name": "Göncz M.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:23"
+  },
+  {
+   "name": "Palotai L.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:23"
+  },
+  {
+   "name": "Kövér B.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:24"
+  },
+  {
+   "name": "Alimov S.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:24"
+  },
+  {
+   "name": "Kresz Á.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:26"
+  },
+  {
+   "name": "Rab D.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:27"
+  },
+  {
+   "name": "Pallag N.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:29"
+  },
+  {
+   "name": "Alimov M.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:30"
+  },
+  {
+   "name": "Kipilla K.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:33"
+  },
+  {
+   "name": "Horváth N.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:46"
+  },
+  {
+   "name": "Schludt B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:47"
+  },
+  {
+   "name": "Országhegyi B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:49"
+  },
+  {
+   "name": "Szaklajda N.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:49"
+  },
+  {
+   "name": "Szennay H.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:51"
+  },
+  {
+   "name": "Torma D.",
+   "claimed": 16.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:52"
+  },
+  {
+   "name": "Németh Á.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:53"
+  },
+  {
+   "name": "Nagy E.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:53"
+  },
+  {
+   "name": "Biró N.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:53"
+  },
+  {
+   "name": "György N.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:34:58"
+  },
+  {
+   "name": "Szvetnyik A.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:01"
+  },
+  {
+   "name": "Gruber D.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:01"
+  },
+  {
+   "name": "Gruber Á.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:07"
+  },
+  {
+   "name": "Szanyi Z.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:08"
+  },
+  {
+   "name": "Kovács H.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:10"
+  },
+  {
+   "name": "Forgó N.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:12"
+  },
+  {
+   "name": "Koncz A.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:13"
+  },
+  {
+   "name": "Vértesi K.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:13"
+  },
+  {
+   "name": "Konkoly B.",
+   "claimed": 20.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:15"
+  },
+  {
+   "name": "Nagy M.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:17"
+  },
+  {
+   "name": "Stágl S.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:17"
+  },
+  {
+   "name": "Torma S.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:22"
+  },
+  {
+   "name": "Pinkóczy M.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:22"
+  },
+  {
+   "name": "Defner J.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:29"
+  },
+  {
+   "name": "Ondrusek L.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:30"
+  },
+  {
+   "name": "Nagy F.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:31"
+  },
+  {
+   "name": "Németh L.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:38"
+  },
+  {
+   "name": "Gaál M.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:47"
+  },
+  {
+   "name": "Juhász B.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:54"
+  },
+  {
+   "name": "Szabó B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:35:55"
+  },
+  {
+   "name": "Vörös V.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:02"
+  },
+  {
+   "name": "Berceli O.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:05"
+  },
+  {
+   "name": "Koós M.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:27"
+  },
+  {
+   "name": "Bene C.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:33"
+  },
+  {
+   "name": "Pap R.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:34"
+  },
+  {
+   "name": "Magyarhoni J.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:40"
+  },
+  {
+   "name": "Petnár M.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:45"
+  },
+  {
+   "name": "Szabó M.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:47"
+  },
+  {
+   "name": "VHÉ",
+   "claimed": 20.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:48"
+  },
+  {
+   "name": "Jeszenszky D.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:52"
+  },
+  {
+   "name": "Ihasz V.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:52"
+  },
+  {
+   "name": "Horvát M.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:36:55"
+  },
+  {
+   "name": "Tápai-Rácz M.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:10"
+  },
+  {
+   "name": "Kovács B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:19"
+  },
+  {
+   "name": "Nagy B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:24"
+  },
+  {
+   "name": "Szabó M.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:26"
+  },
+  {
+   "name": "Knezics B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:27"
+  },
+  {
+   "name": "Biróné B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:28"
+  },
+  {
+   "name": "Pongrácz R.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:40"
+  },
+  {
+   "name": "Ujváry L.",
+   "claimed": 0.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:43"
+  },
+  {
+   "name": "Kovács K.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:46"
+  },
+  {
+   "name": "Németh L.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:47"
+  },
+  {
+   "name": "Takács M.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:53"
+  },
+  {
+   "name": "Kuti B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:37:58"
+  },
+  {
+   "name": "Gabor C.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:38:22"
+  },
+  {
+   "name": "Nyáné M.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:38:31"
+  },
+  {
+   "name": "Mészáros M.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:39:24"
+  },
+  {
+   "name": "Jezerniczky-Klinszki A.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:39:40"
+  },
+  {
+   "name": "Tuli E.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:39:46"
+  },
+  {
+   "name": "Tóth B.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:39:48"
+  },
+  {
+   "name": "Kovács B.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:39:59"
+  },
+  {
+   "name": "Balassa B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:40:09"
+  },
+  {
+   "name": "Tapolczai N.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:40:18"
+  },
+  {
+   "name": "Kálmán H.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:40:36"
+  },
+  {
+   "name": "DemeterSzabolcs",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:40:46"
+  },
+  {
+   "name": "Gál Á.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:18"
+  },
+  {
+   "name": "Tóth f.",
+   "claimed": 9.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:23"
+  },
+  {
+   "name": "Demeter S.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:43"
+  },
+  {
+   "name": "Radics a.",
+   "claimed": 18.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:44"
+  },
+  {
+   "name": "Némethné B.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:46"
+  },
+  {
+   "name": "Gáspár B.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:41:54"
+  },
+  {
+   "name": "Végh M.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:42:22"
+  },
+  {
+   "name": "Liebich D.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:42:25"
+  },
+  {
+   "name": "Cserna M.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:42:54"
+  },
+  {
+   "name": "Karl A.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:43:27"
+  },
+  {
+   "name": "Szél J.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:44:34"
+  },
+  {
+   "name": "Farkas B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:44:47"
+  },
+  {
+   "name": "Földvári B.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:44:47"
+  },
+  {
+   "name": "Kovács B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:44:52"
+  },
+  {
+   "name": "Orsós B.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:45:02"
+  },
+  {
+   "name": "Barsi A.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:45:25"
+  },
+  {
+   "name": "Diósi D.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:46:01"
+  },
+  {
+   "name": "Fekete A.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:46:06"
+  },
+  {
+   "name": "Hajdu Á.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:46:14"
+  },
+  {
+   "name": "Kósi R.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:46:30"
+  },
+  {
+   "name": "Neitzer L.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:46:59"
+  },
+  {
+   "name": "Szabó R.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:47:02"
+  },
+  {
+   "name": "Varga V.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:47:05"
+  },
+  {
+   "name": "Neitzer Á.",
+   "claimed": 7.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:47:35"
+  },
+  {
+   "name": "Bujdosó g.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:48:14"
+  },
+  {
+   "name": "Orsós b.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:48:16"
+  },
+  {
+   "name": "Pettyán B.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:48:38"
+  },
+  {
+   "name": "Takács S.",
+   "claimed": 8.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:48:41"
+  },
+  {
+   "name": "Dumity D.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:49:16"
+  },
+  {
+   "name": "Német R.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:49:40"
+  },
+  {
+   "name": "Boldogh À.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:49:52"
+  },
+  {
+   "name": "Vörös K.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:49:59"
+  },
+  {
+   "name": "Buzsáki B.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:50:11"
+  },
+  {
+   "name": "Benedek I.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:50:56"
+  },
+  {
+   "name": "Klinkó Z.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:51:29"
+  },
+  {
+   "name": "Papp D.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:51:42"
+  },
+  {
+   "name": "Takács Á.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:51:44"
+  },
+  {
+   "name": "Rostás A.",
+   "claimed": 5.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:52:09"
+  },
+  {
+   "name": "Herczeg E.",
+   "claimed": 9.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:53:57"
+  },
+  {
+   "name": "Bibók B.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:55:52"
+  },
+  {
+   "name": "Nieder Á.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:56:29"
+  },
+  {
+   "name": "Schrenck O.",
+   "claimed": 21.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 10:58:35"
+  },
+  {
+   "name": "Kiss á.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:02:05"
+  },
+  {
+   "name": "Gábor C.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:13:50"
+  },
+  {
+   "name": "Gábor C.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:15:51"
+  },
+  {
+   "name": "Mátyás Z.",
+   "claimed": 11.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:20:44"
+  },
+  {
+   "name": "Marek Á.",
+   "claimed": 10.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:27:07"
+  },
+  {
+   "name": "Sándor K.",
+   "claimed": 6.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:32:27"
+  },
+  {
+   "name": "Szücs M.",
+   "claimed": 1.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:33:55"
+  },
+  {
+   "name": "Lipp L.",
+   "claimed": 3.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:37:50"
+  },
+  {
+   "name": "Gabr C.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:39:21"
+  },
+  {
+   "name": "Herkovics G.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:40:10"
+  },
+  {
+   "name": "Gabor C.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:40:15"
+  },
+  {
+   "name": "Bene R.",
+   "claimed": 2.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 11:40:46"
+  },
+  {
+   "name": "Sipos B.",
+   "claimed": 4.0,
+   "status": "pending",
+   "submitted": "2026.09.25. 12:01:10"
+  },
+  {
+   "name": "Marik B.",
+   "claimed": 12.0,
+   "status": "pending",
+   "submitted": ""
+  }
+ ]
 }
