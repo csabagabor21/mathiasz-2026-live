@@ -1405,5 +1405,12 @@
   "evidence": "no-image",
   "checked_at": "2026-09-25T13:42:25Z",
   "claimed": 12.0
+ },
+ "e543000d1b8afb45": {
+  "fp": "e543000d1b8afb45",
+  "status": "pending",
+  "evidence": "download-failed",
+  "checked_at": "2026-09-25T18:05:32Z",
+  "claimed": 12.0
  }
 }

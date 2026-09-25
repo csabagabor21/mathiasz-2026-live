@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T13:42:25Z",
+ "updated": "2026-09-25T18:05:32Z",
  "goal": 2026,
  "verified_total": 0,
  "pending_total": 1234.0,
@@ -1186,7 +1186,7 @@
    "name": "Marik B.",
    "claimed": 12.0,
    "status": "pending",
-   "submitted": ""
+   "submitted": "2026.09.25. 12:16:28"
   }
  ]
 }
